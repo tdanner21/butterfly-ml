@@ -1,0 +1,8 @@
+butterfly-env/
+data/
+.env
+__pycache__/
+*.pyc
+.DS_Store
+models/
+logs/
