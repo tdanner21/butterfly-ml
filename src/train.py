@@ -67,7 +67,7 @@ for param in model.parameters():
     param.requires_grad = False
 
 model.classifier = nn.Sequential(
-    nn.Dropout(p=0.2),
+    nn.Dropout(p=0.4),
     nn.Linear(model.classifier[1].in_features, NUM_CLASSES)
 )
 
